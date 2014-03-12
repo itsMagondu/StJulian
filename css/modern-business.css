@@ -117,14 +117,60 @@ body {
 
 /* Footer Styles */
 footer {
-  margin: 50px 0;
+  /*margin: 50px 0;*/
+  padding: 40px 0px;
+  text-align: center;
 }
 
+footer #social {
+	margin: 20px auto 0px auto;
+	display: inline-block;
+	text-align: center;
+}
+
+#footer {
+	margin-top: 20px;
+	background: #222 url(../img/fbg.jpg);
+	padding: 20px 30px;
+	text-shadow: 0px -1px 0px #000; 
+	-webkit-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
+	   -moz-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
+	        box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+			border-radius: 2px;
+	opacity: .95;
+}
+
+#footer, 
+#footer p, 
+#footer a{
+	color: #b0b0b0 !important;
+}
+
+#footer p i {
+	color: #e1e1e1;
+	font-size: 15px;
+	display: inline-block;
+	width: 15px;
+	text-align: center
+}
+
+#footer a:hover {
+	color: #fff;
+}
+
+#footer h3 {
+	padding: 2px 0px !important;
+	margin-bottom: 10px;
+	color: #e1e1e1;
+	text-shadow: 0px -1px px #000; 
+}
 /* Responsive Styles */
 @media (max-width: 767px) {
 
 .carousel {
   height: 70%; /* increases the carousel height so it looks good on phones */
 }
-
+}
 }

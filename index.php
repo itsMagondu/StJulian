@@ -3,7 +3,7 @@
 require_once('header.html') 
 
 ?> 
-  <div id="myCarousel" class="carousel slide">
+  <div id="myCarousel" class="carousel slide" style="font-weight: bold;">
       <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -88,40 +88,16 @@ require_once('header.html')
           <p>Located in Limuru, St Julian's center comes with a serene environment on top of the many word class services offered. It is ideal for team building exercises, corporate conferences,prayer retreats and family outings. But don't take our word for it, come see for yourself!</p>
         </div>
         <div class="col-lg-2 col-md-2"style="padding-top: 33px;">
-          <a class="btn btn-lg btn-primary pull-left" href="http://startbootstrap.com">Book now!</a>
+          <a class="btn btn-lg btn-primary pull-left" href="contact.php">Contact Us!</a>
         </div>
       </div><!-- /.row -->
-
+      
     <div class="section">
 
-      <div class="container">
+      <div class="container" style="padding-top: 0px;">
 
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2>The Place we call home</h2>
-            <hr>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="./img/st_julians.jpg"></a>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="./img/st_julians2.jpg"></a>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="./img/st_julians3.jpg"></a>
-          </div>
-        </div><!-- /.row -->
-
-      </div><!-- /.container -->
-
-    </div><!-- /.section -->
-
-    <div class="section-colored">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-6" style="width: 30%;">
             <h2>What we offer:</h2>
             <ul>
               <li>Delicious Meals</li>
@@ -135,8 +111,8 @@ require_once('header.html')
               <li>Prayer Grounds</li>
             </ul>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <img class="img-responsive" src="http://placehold.it/700x450/ffffff/cccccc">
+          <div class="col-lg-6 col-md-6 col-sm-6"  style="width: 60%;">
+            <img class="img-responsive" src="img/garden1-long.jpg">
           </div>
         </div><!-- /.row -->
 

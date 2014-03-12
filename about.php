@@ -21,7 +21,7 @@ require_once('header.html')
       <div class="row" style="padding-top: 5px;">
 
         <div class="col-md-6">
-          <img class="img-responsive" src="http://placehold.it/750x450">
+          <img class="img-responsive" src="img/garden4.jpg">
         </div>
         <div class="col-md-6">
           <h2>Our History</h2>
@@ -42,7 +42,7 @@ require_once('header.html')
         </div>
 
         <div class="col-md-6">
-          <img class="img-responsive" src="http://placehold.it/750x450">
+          <img class="img-responsive" src="img/restaraunt1.jpg">
         </div>
       </div>
 
