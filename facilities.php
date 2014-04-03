@@ -57,56 +57,31 @@ require_once('header.html')
           </ul>
           <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade in active" id="service-one">
-              <i class="fa fa-gear pull-left fa-4x"></i>
+              <i class="fa fa-file pull-left fa-4x"></i>
               <p>Our state of the art boardroom can fit 50 people  in one sitting. Conference facilities such as projectors, boards, markerpens  and others are available. Come enjoy the use of these services in a serene environment at affrodable rates.  For more details please <a href="contact.php">Contact Us</a> </p>
             </div>
             <div class="tab-pane fade" id="service-two">
-              <i class="fa fa-gears pull-left fa-4x"></i>
+              <i class="fa fa-suitcase pull-left fa-4x"></i>
               <p> There are seven beautifully decorated bedrooms with all new, tiled bathrooms.</p>
 			  <p>Three cottages offer secluded privacy. The "honeymoon banda" is most wonderful for anniversaries, etc. The other cottages offer a safari atmosphere. There is also a youth hostel for up to 10 young adults. For bookings please <a href="contact.php">Contact Us</a></p>
             </div>
             <div class="tab-pane fade" id="service-three">
-              <i class="fa fa-magic pull-left fa-4x"></i>
+              <i class="fa fa-plus pull-left fa-4x"></i>
               <p>Our Chapel was built in 19.. It can comfortably accomodate 20-30 people at once. It is ideal for small garden weddings. Each sunday however we have a service. Please come and let us worship the Lord together. For more details, please <a href="contact.php">Contact Us</a></p>
             </div>
             <div class="tab-pane fade" id="service-four">
-              <i class="fa fa-flask pull-left fa-4x"></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam placerat nunc ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui ut felis rhoncus, vitae molestie mauris auctor. Donec pellentesque feugiat leo a adipiscing. Pellentesque quis tristique eros, sed rutrum mauris.</p>
-              <p>Nam fringilla quis enim in eleifend. Suspendisse sed lectus mauris. Nam commodo, arcu et posuere placerat, tellus tortor dignissim eros, sit amet eleifend urna lorem sit amet nulla. Praesent sem nibh, vulputate nec congue eu, dapibus vitae augue. Suspendisse cursus urna sit amet metus porttitor, in pharetra quam feugiat. Etiam tempus euismod nulla eget pellentesque.</p>
+              <i class="fa fa-book pull-left fa-4x"></i>
+              <p>Our modern Library is stocked with all sorts of books. The bulk of our stock is Christian books alongside a few books that are appropriate for any christian reader. We have books by prominent authors such as Charles Spurgeon. You can enjoy reading your book in our cozy library which comes with a fireplace for the cold days. For use of this and such other great facilities, please <a href="contact.php">Contact Us</a></p>
             </div>
             <div class="tab-pane fade" id="service-five">
-              <i class="fa fa-flag pull-left fa-4x"></i>
-              <p>Nam fringilla quis enim in eleifend. Suspendisse sed lectus mauris. Nam commodo, arcu et posuere placerat, tellus tortor dignissim eros, sit amet eleifend urna lorem sit amet nulla. Praesent sem nibh, vulputate nec congue eu, dapibus vitae augue. Suspendisse cursus urna sit amet metus porttitor, in pharetra quam feugiat. Etiam tempus euismod nulla eget pellentesque.</p>
-              <p>Vestibulum laoreet molestie urna ac vehicula. Phasellus laoreet semper ipsum ac gravida. Sed in varius tortor. Nullam blandit in neque quis aliquet. Fusce volutpat pellentesque sem non convallis. Suspendisse sit amet magna pulvinar, gravida mauris eu, tincidunt massa. Nam lectus mi, viverra non quam nec, mollis malesuada dolor. Vivamus hendrerit nunc interdum turpis egestas, a lobortis odio consequat. Fusce posuere purus quis ligula faucibus lacinia. Curabitur sit amet congue dolor. Duis dapibus hendrerit nunc et gravida. Phasellus mollis, lectus quis ornare aliquam, arcu orci posuere lectus, vehicula bibendum sem ante quis lacus.</p>
+              <i class="fa fa-cutlery pull-left fa-4x"></i>
+              <p>St Julian's is renowned for its great food. Come enjoy indigenous and selected exotic cuisines prepared in a healthy environment. We offer all meals of the day from breakfast, 10 O'clock tea, Lunch, 4 O'clock tea and dinner. Get to dine in our spacious and serene restaurant to some soothing Christian Music. To enjoy this experience, please <a href="contact.php">Contact Us</a></p>
+            </div>
+             <div class="tab-pane fade" id="service-six">
+              <i class="fa fa-leaf pull-left fa-4x"></i>	
+              <p>To truly blend with nature, St Julian's Center has the best to offer. Located in the highlands of Kenya, the center is rich in all sorts of flora and fauna. On our many trees planted all over the center, there are numerous species of birds. We have a nature trail and strategically placed benches all over the center to make sure you get to experience all ewe have to offer. To take part in this exciting excursion, please  <a href="contact.php">Contact Us</a></p>
             </div>
           </div>
-        </div>
-
-      </div><!-- /.row -->
-
-      <!-- Service Images -->
-
-      <div class="row">
-
-        <div class="col-sm-4">
-          <img class="img-responsive" src="http://placehold.it/750x450">
-          <h3>Conference Facilities</h3>
-          <p>Enjoy modern conferencing facilities in this ambient environment.</p>
-          <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
-        </div>
-
-        <div class="col-sm-4">
-          <img class="img-responsive" src="http://placehold.it/750x450">
-          <h3>Outdoor experience</h3>
-          <p>Service two description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
-          <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
-        </div>
-
-        <div class="col-sm-4">
-          <img class="img-responsive" src="http://placehold.it/750x450">
-          <h3>Accomodation</h3>
-          <p>Service three description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
-          <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
         </div>
 
       </div><!-- /.row -->

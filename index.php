@@ -16,19 +16,19 @@ require_once('header.html')
           <div class="item active">
             <div class="fill" style="background-image:url('./img/house1.jpg');"></div>
             <div class="carousel-caption">
-              <h1>Welcome to St Julian Center</h1>
+              <h1></h1>
             </div>
           </div>
           <div class="item">
             <div class="fill" style="background-image:url('./img/restaraunt1.jpg');"></div>
             <div class="carousel-caption">
-              <h1>Our state of the art guest house</h1>
+              <h1></h1>
             </div>
           </div>
           <div class="item">
             <div class="fill" style="background-image:url('./img/garden2.jpg');"></div>
             <div class="carousel-caption">
-              <h1>Spend time with God in this retreat</h1>
+              <h1></h1>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ require_once('header.html')
         <div class="row">
           <div class="col-lg-12">
             <h2>"Come unto me all who are weary and I will give you rest" - Mathew 11:28</h2>
-            <p>Need to spend time away from all of life's commitments that keep you from enjoying God and His creation? Look no further</p>
+            <p>Need to spend time away from all of life's commitments that keep you from enjoying God and His creation? Look no further.</p>
             <hr>
           </div>
         </div><!-- /.row -->

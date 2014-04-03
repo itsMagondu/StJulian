@@ -305,11 +305,13 @@ html {
 }
 
 body {
-  font-family: Existence Light;//Ubuntu Condensed;//"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: Ubuntu Condensed;//"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
   line-height: 1.428571429;
   color: black;//#333333;1
   background-color: #ffffff;
+  font-weight: 200;
+  /*font-style: oblique;*/
 }
 
 input,
@@ -586,7 +588,7 @@ h6,
 
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  /*margin: 40px 0 20px; */
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -4081,7 +4083,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 13px;
 }
 
 .nav > li > a:hover,
@@ -4101,7 +4103,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
   cursor: not-allowed;
   background-color: transparent;
 }
-
+.nav li.back {
+  padding-top: 85px;
+  border-bottom: 5px solid #FF9900;
+  height: 6px;
+  z-index: 8;
+  position: absolute;
+  }
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
@@ -4546,8 +4554,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-nav > li > a {
   padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 20px;
+  padding-bottom: 0px;
+  line-height: 10px;
 }
 
 @media (max-width: 767px) {
@@ -4582,8 +4590,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 100px; /*Magondu changed from 15px*/
+    padding-bottom: 0px; /*Magondu changed from 15px*/
   }
 }
 
@@ -4823,6 +4831,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-nav > li > a {
   /*color: #999999;*/
+  color: #097054;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,

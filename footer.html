@@ -1,32 +1,47 @@
-		<div class="container"style="background-color: #f5f5f5;">
+		<div class="container"style="background-color: #f5f5f5; margin-top: 10px">
 
       <hr>
 
       <footer>
         <div class="row">
           <div class="col-lg-11"style="text-align: center;">
-            <p>Copyright &copy; RockBase Solutions 2013</p>
+            <p>Copyright &copy; RockBase Solutions 2014</p>
           </div>
           <div id="social">
-			<a href="http://facebook.com/BootstrapMaster" rel="tooltip" title="Facebook" class="facebook">Facebook</a>
+			<a href="" rel="tooltip" title="Facebook" class="facebook">Facebook</a>
 			<a href="http://facebook.com/BootstrapMaster" rel="tooltip" title="Twitter" class="twitter">Twitter</a>
-			<a href="http://BootstrapMaster.com/feed/" rel="tooltip" title="RSS" class="rss">RSS</a>
+			<!--<a href="http://BootstrapMaster.com/feed/" rel="tooltip" title="RSS" class="rss">RSS</a>
 			<a href="#" rel="tooltip" title="Github" class="github">Github</a>
 			<a href="#" rel="tooltip" title="LinkedIn" class="linkedin">LinkedIn</a>
 			<a href="#" rel="tooltip" title="Pintrest" class="pintrest">Pintrest</a>
-			<a href="#" rel="tooltip" title="Vimeo" class="vimeo">Vimeo</a>
+			<a href="#" rel="tooltip" title="Vimeo" class="vimeo">Vimeo</a>-->
 			<a href="#" rel="tooltip" title="YouTube" class="youtube">YouTube</a>
         </div>
         </div>
       </footer>
 
     </div><!-- /.container -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="js/jquery-1.10.2.js"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/modern-business.js"></script>
-
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#menu-items").lavaLamp({
+                fx: "backout", 
+                speed: 700,
+                click: function(event, menuItem) {
+                    return true;
+                }
+            });
+        });
+    </script>
   </body>
 </html>
 

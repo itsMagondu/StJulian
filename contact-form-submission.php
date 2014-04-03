@@ -18,7 +18,7 @@ if (empty($name))
 elseif (empty($email_address)) 
     $error = 'You must enter your email address.';
 // check for a valid email address
-elseif (!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/', $email_address))
+elseif (!preg_match('/^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,3})$/', $email_address))
     $error = 'You must enter a valid email address.';
 // check that a phone number was entered
 if (empty($phone))
@@ -43,9 +43,9 @@ $email_content .= "Message:\n\n$message";
 	
 // send the email
 //ENTER YOUR INFORMATION BELOW FOR THE FORM TO WORK!
-mail ('YOUR-EMAIL-ADDRESS@YOUR-DOMAIN.com', 'YOUR WEBSITE NAME - Contact Form Submission', $email_content, $headers);
+mail ('info@stjulianscentre.co.ke/', 'St Julians Centre - Contact Form Submission', $email_content, $headers);
 	
 // send the user back to the form
-header('Location: contact.html?s='.urlencode('Thank you for your message.')); exit;
+header('Location: contact.php?s='.urlencode('Thank you for your message.')); exit;
 
 ?>

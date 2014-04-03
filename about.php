@@ -48,7 +48,7 @@ require_once('header.html')
 
       <!-- Team Member Profiles -->
 
-      <div class="row">
+      <!--<div class="row">
 
         <div class="col-lg-12">
           <h2 class="page-header">Our Customers</h2>
@@ -76,7 +76,7 @@ require_once('header.html')
 
         <div class="col-md-2 col-sm-4 col-xs-6">
         	<img class="img-responsive img-customer" src="http://placehold.it/500x300">
-        </div>
+        </div>-->
 
       </div>
 
